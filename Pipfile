@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[requires]
+python_version = "3.7"
+
+[packages]
+django-cors-headers = "*"
+djangorestframework = "*"
+pymongo = "*"
+
+[scripts]
+migrate= "python manage.py migrate"
+start= "python src/manage.py runserver 3000"
+diagram= "python manage.py graph_models api -o diagram.png"
