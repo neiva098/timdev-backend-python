@@ -10,8 +10,7 @@ python_version = "3.7"
 django-cors-headers = "*"
 djangorestframework = "*"
 pymongo = "*"
+django = "*"
 
 [scripts]
-migrate= "python manage.py migrate"
 start= "python src/manage.py runserver 3000"
-diagram= "python manage.py graph_models api -o diagram.png"

@@ -8,7 +8,7 @@ DEBUG = True
 INSTALLED_APPS = [
     'django.contrib.auth',
     'django.contrib.contenttypes',
-    'contas.apps.Contas'
+    'Api.apps.Api'
 ]
 
 ROOT_URLCONF = 'main.urls'
